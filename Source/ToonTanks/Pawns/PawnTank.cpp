@@ -23,4 +23,7 @@ void APawnTank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
 }
-APawnTank::APawnTank(){}
+APawnTank::APawnTank()
+{
+	
+}
