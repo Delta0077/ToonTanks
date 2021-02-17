@@ -1,0 +1,9 @@
+{
+	"files.exclude": {
+		"D:/Repos/ToonTanks/.git": true,
+		"D:/Repos/ToonTanks/.vscode": true,
+		"D:/Repos/ToonTanks/Content": true,
+		"D:/Repos/ToonTanks/Intermediate": true,
+		"D:/Repos/ToonTanks/Saved": true
+	}
+}

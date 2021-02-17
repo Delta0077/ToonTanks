@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "ToonTanks (Debug)",
+			"request": "launch",
+			"preLaunchTask": "ToonTanks Win64 Debug Build",
+			"program": "D:\\Repos\\ToonTanks\\Binaries\\Win64\\ToonTanks-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "H:\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "H:\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ToonTanks (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "ToonTanks Win64 DebugGame Build",
+			"program": "D:\\Repos\\ToonTanks\\Binaries\\Win64\\ToonTanks-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "H:\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "H:\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ToonTanks (Development)",
+			"request": "launch",
+			"preLaunchTask": "ToonTanks Win64 Development Build",
+			"program": "D:\\Repos\\ToonTanks\\Binaries\\Win64\\ToonTanks.exe",
+			"args": [
+			],
+			"cwd": "H:\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "H:\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ToonTanks (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "ToonTanks Win64 Shipping Build",
+			"program": "D:\\Repos\\ToonTanks\\Binaries\\Win64\\ToonTanks-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "H:\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "H:\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ToonTanks (Test)",
+			"request": "launch",
+			"preLaunchTask": "ToonTanks Win64 Test Build",
+			"program": "D:\\Repos\\ToonTanks\\Binaries\\Win64\\ToonTanks-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "H:\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "H:\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ToonTanksEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "ToonTanksEditor Win64 Debug Build",
+			"program": "H:\\Epic Games\\UE_4.22\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"D:\\Repos\\ToonTanks\\ToonTanks.uproject"
+			],
+			"cwd": "H:\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "H:\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ToonTanksEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "ToonTanksEditor Win64 DebugGame Build",
+			"program": "H:\\Epic Games\\UE_4.22\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\Repos\\ToonTanks\\ToonTanks.uproject"
+			],
+			"cwd": "H:\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "H:\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "ToonTanksEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "ToonTanksEditor Win64 Development Build",
+			"program": "H:\\Epic Games\\UE_4.22\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\Repos\\ToonTanks\\ToonTanks.uproject"
+			],
+			"cwd": "H:\\Epic Games\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "H:\\Epic Games\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "H:\\Epic Games\\UE_4.22\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"D:\\Repos\\ToonTanks\\ToonTanks.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "H:\\Epic Games\\UE_4.22"
+		}
+	]
+}
