@@ -2,10 +2,19 @@
 
 
 #include "PawnTank.h"
+#include "GameFramework/SpringArmComponent.h"
+#include "Camera/CameraComponent.h"
+
 
 APawnTank::APawnTank()
 {
-	
+	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("Spring Arm"));
+	SpringArm->SetupAttachment(RootComponent);
+
+	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
+	Camera->SetupAttachment(SpringArm);
+
+
 }
 // Called when the game starts or when spawned
 void APawnTank::BeginPlay()

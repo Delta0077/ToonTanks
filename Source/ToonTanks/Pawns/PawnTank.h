@@ -6,6 +6,9 @@
 #include "Pawns/PawnBase.h"
 #include "PawnTank.generated.h"
 
+class USpringArmComponent;
+class UCameraComponent;
+
 
 UCLASS()
 class TOONTANKS_API APawnTank : public APawnBase
@@ -13,6 +16,10 @@ class TOONTANKS_API APawnTank : public APawnBase
 	GENERATED_BODY()
 	
 private:
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components", meta=(AllowPrivateAccess="true"))
+	USpringArmComponent* SpringArm;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Components", meta=(AllowPrivateAccess="true"))
+	UCameraComponent* Camera;
 
 public:
 
