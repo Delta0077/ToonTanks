@@ -3,6 +3,10 @@
 
 #include "PawnTank.h"
 
+APawnTank::APawnTank()
+{
+	
+}
 // Called when the game starts or when spawned
 void APawnTank::BeginPlay()
 {
@@ -22,8 +26,4 @@ void APawnTank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
-}
-APawnTank::APawnTank()
-{
-	
 }
