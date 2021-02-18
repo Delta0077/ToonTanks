@@ -36,3 +36,22 @@ void APawnTank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
 }
+void APawnTank::CalculateMoveInput(float Value) 
+{
+	
+}
+
+void APawnTank::CalculateRotateInput(float Value) 
+{
+	
+}
+
+void APawnTank::Move() 
+{
+	
+}
+
+void APawnTank::Rotate() 
+{
+	
+}
