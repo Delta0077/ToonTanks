@@ -27,7 +27,9 @@ class TOONTANKS_API ATankGameModeBase : public AGameModeBase
 		void ActorDied(AActor* DeadActor);
 
 	protected:
-		
+		UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category="Game Loop")
+		int32 StartDelay = 3;
+
 		virtual void BeginPlay() override;
 		UFUNCTION(BlueprintImplementableEvent)
 		void GameStart();
