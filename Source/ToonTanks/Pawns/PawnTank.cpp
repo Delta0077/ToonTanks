@@ -28,7 +28,7 @@ void APawnTank::HandleDestruction()
 {
 	Super::HandleDestruction();
 	//Hide Player. TODO - Create new function to handle this.
-	Destroy();
+	
 }
 
 // Called every frame
