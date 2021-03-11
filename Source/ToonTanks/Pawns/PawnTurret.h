@@ -25,6 +25,7 @@ class TOONTANKS_API APawnTurret : public APawnBase
 	
 	void CheckFireCondition();
 
+
 	float ReturnDistanceToPlayer();
 
 	public:
