@@ -31,6 +31,8 @@ private:
 	UPROPERTY(EditAnywhere, Category = "Effects")
 	UParticleSystem* HitParticle;
 	UPROPERTY(EditAnywhere, Category = "Effects")
+	UParticleSystem* AfterExplosionEffect;
+	UPROPERTY(EditAnywhere, Category = "Effects")
 	USoundBase* HitSound;
 	UPROPERTY(EditAnywhere, Category = "Effects")
 	USoundBase* LaunchSound;
