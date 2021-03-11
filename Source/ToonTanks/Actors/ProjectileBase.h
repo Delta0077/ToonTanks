@@ -36,6 +36,8 @@ private:
 	USoundBase* HitSound;
 	UPROPERTY(EditAnywhere, Category = "Effects")
 	USoundBase* LaunchSound;
+	UPROPERTY(EditAnywhere, Category = "Effects")
+	TSubclassOf<UCameraShake> HitShake;
 
 	// FUNCTION
 	UFUNCTION()

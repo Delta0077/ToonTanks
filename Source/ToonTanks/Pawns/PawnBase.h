@@ -38,6 +38,9 @@ class TOONTANKS_API APawnBase : public APawn
 	UPROPERTY(EditAnywhere, Category = "Effects")
 	USoundBase* DestroySound;
 
+	UPROPERTY(EditAnywhere, Category = "Effects")
+	TSubclassOf<UCameraShake> ExplodeShake;
+
 
 public:
 	// Sets default values for this pawn's properties
